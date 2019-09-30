@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ca7cc0212fcf2d31bbd9d1cd603e4ce",
+    "revision": "d370562518efbe6f2aaf1904445ebb6c",
     "url": "/juntti.nu/index.html"
   },
   {
@@ -8,23 +8,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/juntti.nu/static/css/2.c5304fc7.chunk.css"
   },
   {
-    "revision": "c39e3684d9d87622698d",
-    "url": "/juntti.nu/static/css/main.464cc6ac.chunk.css"
+    "revision": "7842859c1045a773980d",
+    "url": "/juntti.nu/static/css/main.18108780.chunk.css"
   },
   {
     "revision": "c46e932524f1a17d678b",
     "url": "/juntti.nu/static/js/2.9251297c.chunk.js"
   },
   {
-    "revision": "c39e3684d9d87622698d",
-    "url": "/juntti.nu/static/js/main.1c4ccec4.chunk.js"
+    "revision": "7842859c1045a773980d",
+    "url": "/juntti.nu/static/js/main.0ad1f9cc.chunk.js"
   },
   {
     "revision": "3086b9196876e1d72c80",
     "url": "/juntti.nu/static/js/runtime-main.b8565228.js"
   },
   {
-    "revision": "2c720758eb0ec2eb8d5a640b6f6cb6ae",
-    "url": "/juntti.nu/static/media/backen.2c720758.jpg"
+    "revision": "ddcdc465d9a29a98a52e8693b14b0c8d",
+    "url": "/juntti.nu/static/media/backen.ddcdc465.jpg"
   }
 ]);
