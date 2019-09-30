@@ -3,11 +3,11 @@ import React from 'react';
 class About extends React.Component {
   render() {
     return (
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-8 col-sm-10">
+      <div className="row d-flex justify-content-center">
+        <div className="col-md-8 col-sm-10">
           <h2>Hello there!</h2>
-          <div class="content-bg-dark">
-            <p class="text-justify">
+          <div className="content-bg-dark">
+            <p className="text-justify">
               Welcome to my website (under construction). I'm a frontend
               developer with an interest in design and UX. My current toolbox
               consists of JavaScript/TypeScript, Angular8, HTML/CSS, jQuery,
