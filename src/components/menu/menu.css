@@ -1,3 +1,16 @@
+a {
+  color: #fff !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+
+a.is-active li {
+  color: gold;
+}
+
 header {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
