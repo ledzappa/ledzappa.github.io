@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6778ec7c7897dc07aaa752528ebd311",
+    "revision": "876cb6475de5c73f94c1444ebfedb3d0",
     "url": "/juntti.nu/index.html"
   },
   {
-    "revision": "8e9ae5724b9b3a3c9521",
+    "revision": "e840362df885ef915f3f",
     "url": "/juntti.nu/static/css/2.c5304fc7.chunk.css"
   },
   {
-    "revision": "a79ef4914f6676fa54b0",
-    "url": "/juntti.nu/static/css/main.64b323dd.chunk.css"
+    "revision": "e40828799940c7ed8f9d",
+    "url": "/juntti.nu/static/css/main.05ae880e.chunk.css"
   },
   {
-    "revision": "8e9ae5724b9b3a3c9521",
-    "url": "/juntti.nu/static/js/2.852d8cd0.chunk.js"
+    "revision": "e840362df885ef915f3f",
+    "url": "/juntti.nu/static/js/2.04c0d207.chunk.js"
   },
   {
-    "revision": "a79ef4914f6676fa54b0",
-    "url": "/juntti.nu/static/js/main.0a2f3c34.chunk.js"
+    "revision": "e40828799940c7ed8f9d",
+    "url": "/juntti.nu/static/js/main.6d896a5a.chunk.js"
   },
   {
     "revision": "3086b9196876e1d72c80",
