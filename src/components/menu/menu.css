@@ -6,7 +6,6 @@ a:hover {
   text-decoration: none !important;
 }
 
-
 a.is-active li {
   color: gold;
 }
@@ -47,7 +46,7 @@ ul li {
   height: 100%;
   padding-top: 2rem;
   text-align: left;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .sidebar.show {
@@ -58,12 +57,16 @@ ul li {
   left: -14rem;
 }
 
-.sidebar button {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 ul li:hover {
   background-color: #333;
+}
+
+svg {
+  width: 2rem !important;
+}
+
+.fa-bars {
+  position: absolute;
+  left: 0.3rem;
+  top: 1.1rem;
 }

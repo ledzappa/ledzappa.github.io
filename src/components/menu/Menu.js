@@ -1,6 +1,14 @@
 import React from 'react';
 import './menu.css';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faInfoCircle,
+  faRocket,
+  faCameraRetro,
+  faPaperPlane,
+  faBars
+} from '@fortawesome/free-solid-svg-icons';
 
 class Menu extends React.Component {
   state = {
@@ -8,15 +16,27 @@ class Menu extends React.Component {
   };
 
   MenuItems = () => (
-    <div>
+    <div onClick={this.handleClick}>
       <NavLink activeClassName="is-active" to="/about">
-        <li>About</li>
+        <li>
+          <FontAwesomeIcon icon={faInfoCircle} />
+          About
+        </li>
       </NavLink>
       <NavLink activeClassName="is-active" to="/projects">
-        <li>Projects</li>
+        <li>
+          <FontAwesomeIcon icon={faRocket} />
+          Projects
+        </li>
       </NavLink>
-      <li>Photography</li>
-      <li>Other</li>
+      <li>
+        <FontAwesomeIcon icon={faCameraRetro} />
+        Photography
+      </li>
+      <li>
+        <FontAwesomeIcon icon={faPaperPlane} />
+        Contact
+      </li>
     </div>
   );
 
@@ -41,17 +61,17 @@ class Menu extends React.Component {
           <ul className="d-none d-sm-block p-0">
             <this.MenuItems />
           </ul>
-          <button className="d-block d-sm-none" onClick={this.handleClick}>
-            Show
-          </button>
+          <FontAwesomeIcon
+            className="d-block d-sm-none"
+            icon={faBars}
+            size="lg"
+            onClick={this.handleClick}
+          />
         </header>
 
         <div
           className={this.state.showSidebar ? 'sidebar show' : 'sidebar hidden'}
         >
-          <button className="d-block d-sm-none" onClick={this.handleClick}>
-            Hide
-          </button>
           <ul className="p-0">
             <this.MenuItems />
           </ul>
