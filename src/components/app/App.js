@@ -7,20 +7,17 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from '../projects/Projects';
 
 function App() {
-
-  function onRouteC() {
-    console.log("ROUTE CHANGED");
-  }
-
   return (
     <div className="App">
-      <Router onChange={onRouteC}>
+      <Router>
         <Menu />
         <div className="pt-4">
           <div className="row d-flex justify-content-center">
+            <Route path="/about" exact component={About} />
+            <Route path="/projects" exact component={Projects} />
             <Route path="/" exact component={About} />
-            <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
+            {/* For github pages */}
+            <Route path="/juntti.nu" exact component={About} />
           </div>
         </div>
       </Router>
