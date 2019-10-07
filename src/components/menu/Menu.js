@@ -16,7 +16,7 @@ class Menu extends React.Component {
   };
 
   MenuItems = () => (
-    <div onClick={this.handleClick}>
+    <div>
       <NavLink activeClassName="is-active" to="/about">
         <li>
           <FontAwesomeIcon icon={faInfoCircle} />
@@ -51,6 +51,7 @@ class Menu extends React.Component {
   };
 
   handleClick = () => {
+    console.log('click!');
     this.setState({ showSidebar: !this.state.showSidebar });
   };
 
@@ -68,11 +69,17 @@ class Menu extends React.Component {
             onClick={this.handleClick}
           />
         </header>
-
+        <div
+          className={
+            this.state.showSidebar
+              ? 'menu-overlay animated fadeIn fast'
+              : 'menu-overlay animated fadeOut fast'
+          }
+        ></div>
         <div
           className={this.state.showSidebar ? 'sidebar show' : 'sidebar hidden'}
         >
-          <ul className="p-0">
+          <ul className="p-0" onClick={this.handleClick}>
             <this.MenuItems />
           </ul>
         </div>
