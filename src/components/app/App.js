@@ -1,7 +1,6 @@
 import React from 'react';
 import About from '../about/About';
 import Menu from '../menu/Menu';
-import Footer from '../footer/Footer';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from '../projects/Projects';
@@ -21,7 +20,6 @@ function App() {
           </div>
         </div>
       </Router>
-      <Footer />
     </div>
   );
 }

@@ -12,6 +12,8 @@ p {
 
 body {
   color: #fff;
+  height: 100%;
+  position: relative;
   background-image: url('backen.jpg');
   background-size: cover;
   background-repeat: no-repeat;

@@ -9,6 +9,7 @@ import {
   faPaperPlane,
   faBars
 } from '@fortawesome/free-solid-svg-icons';
+import { version } from '../../../package.json';
 
 class Menu extends React.Component {
   state = {
@@ -82,6 +83,7 @@ class Menu extends React.Component {
           <ul className="p-0" onClick={this.handleClick}>
             <this.MenuItems />
           </ul>
+          <div className="sidebar-footer">v { version }</div>
         </div>
       </div>
     );
