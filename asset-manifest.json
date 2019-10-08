@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/juntti.nu/static/css/main.ff2e1d99.chunk.css",
-    "main.js": "/juntti.nu/static/js/main.0306e52e.chunk.js",
-    "main.js.map": "/juntti.nu/static/js/main.0306e52e.chunk.js.map",
+    "main.css": "/juntti.nu/static/css/main.e502b332.chunk.css",
+    "main.js": "/juntti.nu/static/js/main.40ba33ef.chunk.js",
+    "main.js.map": "/juntti.nu/static/js/main.40ba33ef.chunk.js.map",
     "runtime-main.js": "/juntti.nu/static/js/runtime-main.b8565228.js",
     "runtime-main.js.map": "/juntti.nu/static/js/runtime-main.b8565228.js.map",
     "static/css/2.68775178.chunk.css": "/juntti.nu/static/css/2.68775178.chunk.css",
-    "static/js/2.5303165f.chunk.js": "/juntti.nu/static/js/2.5303165f.chunk.js",
-    "static/js/2.5303165f.chunk.js.map": "/juntti.nu/static/js/2.5303165f.chunk.js.map",
+    "static/js/2.2fb89500.chunk.js": "/juntti.nu/static/js/2.2fb89500.chunk.js",
+    "static/js/2.2fb89500.chunk.js.map": "/juntti.nu/static/js/2.2fb89500.chunk.js.map",
     "index.html": "/juntti.nu/index.html",
-    "precache-manifest.e2b0eaec2bfd813a51a7428e6107b8a9.js": "/juntti.nu/precache-manifest.e2b0eaec2bfd813a51a7428e6107b8a9.js",
+    "precache-manifest.ef637609c482229ed8a37066a138a1b7.js": "/juntti.nu/precache-manifest.ef637609c482229ed8a37066a138a1b7.js",
     "service-worker.js": "/juntti.nu/service-worker.js",
     "static/css/2.68775178.chunk.css.map": "/juntti.nu/static/css/2.68775178.chunk.css.map",
-    "static/css/main.ff2e1d99.chunk.css.map": "/juntti.nu/static/css/main.ff2e1d99.chunk.css.map",
+    "static/css/main.e502b332.chunk.css.map": "/juntti.nu/static/css/main.e502b332.chunk.css.map",
     "static/media/index.css": "/juntti.nu/static/media/backen.ddcdc465.jpg"
   }
 }
