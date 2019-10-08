@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Menu />
       <div className="row">
-        <div className="col-12 pt-4">
+        <div className="col-12 pt-4 pt-sm-5">
           <div className="row d-flex justify-content-center">
             <Route path="/about" exact component={About} />
             <Route path="/projects" exact component={Projects} />
