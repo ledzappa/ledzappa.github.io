@@ -7,10 +7,10 @@ import Projects from '../projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Menu />
-        <div className="pt-4">
+    <Router>
+      <Menu />
+      <div className="row">
+        <div className="col-12 pt-4">
           <div className="row d-flex justify-content-center">
             <Route path="/about" exact component={About} />
             <Route path="/projects" exact component={Projects} />
@@ -19,8 +19,8 @@ function App() {
             <Route path="/juntti.nu" exact component={About} />
           </div>
         </div>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

@@ -58,32 +58,36 @@ class Menu extends React.Component {
 
   render() {
     return (
-      <div>
-        <header>
-          <ul className="d-none d-sm-block p-0">
-            <this.MenuItems />
-          </ul>
-          <FontAwesomeIcon
-            className="d-block d-sm-none"
-            icon={faBars}
-            size="lg"
-            onClick={this.handleClick}
-          />
-        </header>
-        <div
-          className={
-            this.state.showSidebar
-              ? 'menu-overlay animated fadeIn fast'
-              : 'menu-overlay animated fadeOut fast'
-          }
-        ></div>
-        <div
-          className={this.state.showSidebar ? 'sidebar show' : 'sidebar hidden'}
-        >
-          <ul className="p-0" onClick={this.handleClick}>
-            <this.MenuItems />
-          </ul>
-          <div className="sidebar-footer">v { version }</div>
+      <div className="row">
+        <div className="col-12">
+          <header className="text-center">
+            <ul className="d-none d-sm-block p-0">
+              <this.MenuItems />
+            </ul>
+            <FontAwesomeIcon
+              className="d-block d-sm-none"
+              icon={faBars}
+              size="lg"
+              onClick={this.handleClick}
+            />
+          </header>
+          <div
+            className={
+              this.state.showSidebar
+                ? 'menu-overlay animated fadeIn fast'
+                : 'menu-overlay animated fadeOut fast'
+            }
+          ></div>
+          <div
+            className={
+              this.state.showSidebar ? 'sidebar show' : 'sidebar hidden'
+            }
+          >
+            <ul className="p-0" onClick={this.handleClick}>
+              <this.MenuItems />
+            </ul>
+            <div className="sidebar-footer">v {version}</div>
+          </div>
         </div>
       </div>
     );
