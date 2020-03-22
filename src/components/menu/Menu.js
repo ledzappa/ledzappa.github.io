@@ -1,12 +1,10 @@
 import React from 'react';
-import './menu.css';
+import './Menu.css';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faInfoCircle,
   faRocket,
-  faCameraRetro,
-  faPaperPlane,
   faBars
 } from '@fortawesome/free-solid-svg-icons';
 import { version } from '../../../package.json';
@@ -17,7 +15,7 @@ class Menu extends React.Component {
   };
 
   MenuItems = () => (
-    <div>
+    <div className="menu-component">
       <NavLink activeClassName="is-active" to="/about">
         <li>
           <FontAwesomeIcon icon={faInfoCircle} />
@@ -30,14 +28,6 @@ class Menu extends React.Component {
           Projects
         </li>
       </NavLink>
-      <li>
-        <FontAwesomeIcon icon={faCameraRetro} />
-        Photography
-      </li>
-      <li>
-        <FontAwesomeIcon icon={faPaperPlane} />
-        Contact
-      </li>
     </div>
   );
 
@@ -52,13 +42,12 @@ class Menu extends React.Component {
   };
 
   handleClick = () => {
-    console.log('click!');
     this.setState({ showSidebar: !this.state.showSidebar });
   };
 
   render() {
     return (
-      <div className="row">
+      <div className="row menu-component">
         <div className="col-12">
           <header className="text-center">
             <ul className="d-none d-sm-block p-0">

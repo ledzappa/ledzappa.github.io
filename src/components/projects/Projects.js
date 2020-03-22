@@ -4,13 +4,34 @@ class Projects extends React.Component {
   projects = [
     {
       name: 'Scng',
-      description: 'A word generator',
+      description: 'A word generator!',
       link: 'https://ledzappa.github.io/scng',
       img: 'assets/scng.png'
     },
     {
+      name: 'Countries and Capitals game',
+      description:
+        'A game I developed in order to teach myself the countries and capitals of the world. Vanilla JS, bootstrap, animate.css.',
+      link: 'https://ledzappa.github.io/countries-and-capitals-game',
+      img: 'assets/scng.png'
+    },
+    {
+      name: 'Baeck.studio',
+      description:
+        'A website for swedish graphical studio "Bäck". Built in Angular, with bootstrap and animate.css.',
+      link: 'https://bäck.studio/',
+      img: 'assets/scng.png'
+    },
+    {
       name: 'Juntti.nu',
-      description: 'A website built with React',
+      description: 'My personal website, powered by react, bootstrap and animate.css.',
+      link: 'https://ledzappa.github.io/juntti.nu',
+      img: 'assets/scng.png'
+    },
+    {
+      name: 'Seiken X',
+      description:
+        'A Snes style game developed using the game maker engine and the GML-language. Work in progress.',
       link: 'https://ledzappa.github.io/scng',
       img: 'assets/scng.png'
     }
