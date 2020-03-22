@@ -1,10 +1,13 @@
 import React from 'react';
 import './About.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import ContentBox from '../../shared/content-box/ContentBox';
 
 class About extends React.Component {
   render() {
     return (
-      <div className="col-md-8 col-sm-10">
+      <ContentBox>
         <h2>Hello there!</h2>
         <div className="content-bg-dark">
           <p className="text-justify">
@@ -16,12 +19,26 @@ class About extends React.Component {
             and SQL. I strive to write easy-to-read, slick and maintainable
             code, to challenge myself and to surpass expectations.
           </p>
-          <ul>
-            <li>LinkedIn</li>
-            <li>Github</li>
+          <hr />
+          <ul className="list-unstyled">
+            <li>
+              <FontAwesomeIcon className="mr-2" icon={faLinkedin} />
+              <a
+                href="https://www.linkedin.com/in/mikael-juntti-a7666534/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <FontAwesomeIcon className="mr-2" icon={faGithub} />
+              <a href="https://www.github.com/ledzappa" target="_blank">
+                Github
+              </a>
+            </li>
           </ul>
         </div>
-      </div>
+      </ContentBox>
     );
   }
 }

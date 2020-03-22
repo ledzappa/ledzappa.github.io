@@ -1,4 +1,5 @@
 import React from 'react';
+import ContentBox from '../../shared/content-box/ContentBox';
 
 class Projects extends React.Component {
   projects = [
@@ -24,7 +25,8 @@ class Projects extends React.Component {
     },
     {
       name: 'Juntti.nu',
-      description: 'My personal website, powered by react, bootstrap and animate.css.',
+      description:
+        'My personal website, powered by react, bootstrap and animate.css.',
       link: 'https://ledzappa.github.io/juntti.nu',
       img: 'assets/scng.png'
     },
@@ -36,9 +38,22 @@ class Projects extends React.Component {
       img: 'assets/scng.png'
     }
   ];
+
+  projectsProfessional = [
+    {
+      name: 'SEB - Login Client',
+      description:
+        'The login application of swedish bank SEB, powered by Angular/Typescript. Refactored the entire application from one single module into multiple feature modules to enable lazy loading. Implemented NGRX-state management, QR-functionality among others.'
+    },
+    {
+      name: 'SEB - General Signing Surface',
+      description:
+        'A micro service app used by the entire bank in order to sign payments, documents etc. Powered by angular. Written by me from scratch.'
+    }
+  ];
   render() {
     return (
-      <div className="col-lg-8 col-md-10 col-sm-12">
+      <ContentBox>
         <h2>Projects</h2>
         <div className="content-bg-dark">
           {this.projects.map(item => (
@@ -51,7 +66,7 @@ class Projects extends React.Component {
             </div>
           ))}
         </div>
-      </div>
+      </ContentBox>
     );
   }
 }

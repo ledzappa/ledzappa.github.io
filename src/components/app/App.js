@@ -1,9 +1,9 @@
 import React from 'react';
-import About from '../about/About';
+import About from '../feature/about/About';
 import Menu from '../menu/Menu';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Projects from '../projects/Projects';
+import Projects from '../feature/projects/Projects';
 
 function App() {
   return (
