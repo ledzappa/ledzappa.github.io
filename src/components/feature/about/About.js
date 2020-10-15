@@ -13,7 +13,7 @@ class About extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                  <img src={me} className="rounded-circle img-fluid mb-2" />
+                  <img src={me} className="rounded-circle img-fluid mb-4" />
                 </div>
                 <div className="col-sm-8">
                   <h2>Hi!</h2>
