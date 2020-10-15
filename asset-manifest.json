@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/juntti.nu/static/css/main.750b00c8.chunk.css",
-    "main.js": "/juntti.nu/static/js/main.b3d15513.chunk.js",
-    "main.js.map": "/juntti.nu/static/js/main.b3d15513.chunk.js.map",
+    "main.js": "/juntti.nu/static/js/main.8e14df9d.chunk.js",
+    "main.js.map": "/juntti.nu/static/js/main.8e14df9d.chunk.js.map",
     "runtime-main.js": "/juntti.nu/static/js/runtime-main.901429a9.js",
     "runtime-main.js.map": "/juntti.nu/static/js/runtime-main.901429a9.js.map",
     "static/css/2.e61f11f7.chunk.css": "/juntti.nu/static/css/2.e61f11f7.chunk.css",
     "static/js/2.113f8c40.chunk.js": "/juntti.nu/static/js/2.113f8c40.chunk.js",
     "static/js/2.113f8c40.chunk.js.map": "/juntti.nu/static/js/2.113f8c40.chunk.js.map",
     "index.html": "/juntti.nu/index.html",
-    "precache-manifest.8c28cceb9ff655a3ab9980ce913f1e5a.js": "/juntti.nu/precache-manifest.8c28cceb9ff655a3ab9980ce913f1e5a.js",
+    "precache-manifest.d313dbd64dc97acb00108f29e89b85ed.js": "/juntti.nu/precache-manifest.d313dbd64dc97acb00108f29e89b85ed.js",
     "service-worker.js": "/juntti.nu/service-worker.js",
     "static/css/2.e61f11f7.chunk.css.map": "/juntti.nu/static/css/2.e61f11f7.chunk.css.map",
     "static/css/main.750b00c8.chunk.css.map": "/juntti.nu/static/css/main.750b00c8.chunk.css.map",
