@@ -13,6 +13,24 @@ const shuffle = (a) => {
 };
 
 class TechStack extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', () => this.updateWindowDimensions());
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', () => this.updateWindowDimensions());
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
   render() {
     const words = [
       { text: 'JavaScript', value: 100 },
@@ -66,7 +84,13 @@ class TechStack extends React.Component {
                       <div
                         className="d-inline-block mr-3"
                         style={{
-                          fontSize: word.value,
+                          fontSize:
+                            word.value *
+                            (this.state.width > 1000
+                              ? 1
+                              : this.state.width > 600
+                              ? 0.6
+                              : 0.4),
                           opacity: i % 2 === 1 ? 0.6 : 1,
                         }}
                       >
