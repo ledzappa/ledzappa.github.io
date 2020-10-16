@@ -40,7 +40,7 @@ body.bg-overlay::after {
 }
 
 .page {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .page-about {
