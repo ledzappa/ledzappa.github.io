@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/juntti.nu/static/css/main.fb29a67d.chunk.css",
-    "main.js": "/juntti.nu/static/js/main.b916006b.chunk.js",
-    "main.js.map": "/juntti.nu/static/js/main.b916006b.chunk.js.map",
+    "main.css": "/juntti.nu/static/css/main.ddba3238.chunk.css",
+    "main.js": "/juntti.nu/static/js/main.55970eb2.chunk.js",
+    "main.js.map": "/juntti.nu/static/js/main.55970eb2.chunk.js.map",
     "runtime-main.js": "/juntti.nu/static/js/runtime-main.901429a9.js",
     "runtime-main.js.map": "/juntti.nu/static/js/runtime-main.901429a9.js.map",
     "static/css/2.e61f11f7.chunk.css": "/juntti.nu/static/css/2.e61f11f7.chunk.css",
-    "static/js/2.113f8c40.chunk.js": "/juntti.nu/static/js/2.113f8c40.chunk.js",
-    "static/js/2.113f8c40.chunk.js.map": "/juntti.nu/static/js/2.113f8c40.chunk.js.map",
+    "static/js/2.5f3b0fd5.chunk.js": "/juntti.nu/static/js/2.5f3b0fd5.chunk.js",
+    "static/js/2.5f3b0fd5.chunk.js.map": "/juntti.nu/static/js/2.5f3b0fd5.chunk.js.map",
     "index.html": "/juntti.nu/index.html",
-    "precache-manifest.7d7989a52930519b41c225d27d758468.js": "/juntti.nu/precache-manifest.7d7989a52930519b41c225d27d758468.js",
+    "precache-manifest.d05aacd042d307027ca650a6d1995b62.js": "/juntti.nu/precache-manifest.d05aacd042d307027ca650a6d1995b62.js",
     "service-worker.js": "/juntti.nu/service-worker.js",
     "static/css/2.e61f11f7.chunk.css.map": "/juntti.nu/static/css/2.e61f11f7.chunk.css.map",
-    "static/css/main.fb29a67d.chunk.css.map": "/juntti.nu/static/css/main.fb29a67d.chunk.css.map",
+    "static/css/main.ddba3238.chunk.css.map": "/juntti.nu/static/css/main.ddba3238.chunk.css.map",
     "static/media/index.css": "/juntti.nu/static/media/backen.ddcdc465.jpg",
     "static/media/me.jpg": "/juntti.nu/static/media/me.2dfa4b90.jpg",
     "static/media/nabo1.png": "/juntti.nu/static/media/nabo1.ed9dbf51.png",
     "static/media/nabo2.png": "/juntti.nu/static/media/nabo2.26ba1851.png",
-    "static/media/nabo3.png": "/juntti.nu/static/media/nabo3.64b84c43.png"
+    "static/media/nabo3.png": "/juntti.nu/static/media/nabo3.64b84c43.png",
+    "static/media/seb1.png": "/juntti.nu/static/media/seb1.c6ab0474.png"
   }
 }
