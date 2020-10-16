@@ -27,16 +27,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body.bg-overlay::after {
-  content: '';
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.35);
+.container-fluid {
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .page {

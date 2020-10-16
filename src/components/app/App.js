@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div className="row">
-        <div className="col-12 p-0">
+        <div className="col-12">
           <About />
           <Projects />
           <TechStack />

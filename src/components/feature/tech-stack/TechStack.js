@@ -71,34 +71,30 @@ class TechStack extends React.Component {
     ];
 
     return (
-      <div className="row">
-        <div className="col-12">
-          <div className="page page-tech-stack">
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <h1>&lt; TOOLBOX /&gt;</h1>
-                  <hr />
-                  <div class="text-center">
-                    {shuffle(words).map((word, i) => (
-                      <div
-                        className="d-inline-block mr-3"
-                        style={{
-                          fontSize:
-                            word.value *
-                            (this.state.width > 1000
-                              ? 1
-                              : this.state.width > 600
-                              ? 0.6
-                              : 0.4),
-                          opacity: i % 2 === 1 ? 0.6 : 1,
-                        }}
-                      >
-                        {word.text}
-                      </div>
-                    ))}
+      <div className="page page-tech-stack">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <h1 className="mt-4 mt-sm-0">&lt; TOOLBOX /&gt;</h1>
+              <hr />
+              <div class="text-center mb-4">
+                {shuffle(words).map((word, i) => (
+                  <div
+                    className="d-inline-block mr-3"
+                    style={{
+                      fontSize:
+                        word.value *
+                        (this.state.width > 1000
+                          ? 1
+                          : this.state.width > 600
+                          ? 0.6
+                          : 0.4),
+                      opacity: i % 2 === 1 ? 0.6 : 1,
+                    }}
+                  >
+                    {word.text}
                   </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
