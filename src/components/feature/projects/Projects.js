@@ -4,6 +4,7 @@ import './Projects.css';
 import nabo1 from './../../../assets/img/nabo1.png';
 import nabo2 from './../../../assets/img/nabo2.png';
 import nabo3 from './../../../assets/img/nabo3.png';
+import seb1 from './../../../assets/img/seb1.png';
 
 class Projects extends React.Component {
   projects = [
@@ -44,47 +45,40 @@ class Projects extends React.Component {
   ];
 
   projectsProfessional = [
+    { name: 'Conzignus/NABO', description: 'Web portal', image: nabo1 },
+    { name: 'Conzignus/NABO', description: 'Web portal', image: nabo2 },
+    { name: 'Conzignus/NABO', description: 'Admin interface', image: nabo3 },
     {
       name: 'SEB - Login Client',
       description:
-        'The login application of swedish bank SEB, powered by Angular/Typescript. Refactored the entire application from one single module into multiple feature modules to enable lazy loading. Implemented NGRX-state management, QR-functionality among others.',
+        'The login application of swedish bank SEB, powered by Angular. Highly configurable. Refactored the entire application from one single module into multiple feature modules to enable lazy loading. Implemented NGRX-state management, QR-functionality among others.',
+      image: seb1,
     },
     {
       name: 'SEB - General Signing Surface',
       description:
         'A micro service app used by the entire bank in order to sign payments, documents etc. Powered by angular. Written by me from scratch.',
+      image: nabo1,
     },
   ];
   render() {
     return (
       <div className="page page-projects">
         <Carousel className="vh-100" interval={3000}>
-          <Carousel.Item>
-            <img className="d-block w-100" src={nabo1} alt="First slide" />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <br />
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={nabo2} alt="Third slide" />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={nabo3} alt="Third slide" />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <br />
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          {this.projectsProfessional.map((project) => (
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={project.image}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3>{project.name}</h3>
+                <br />
+                <p>{project.description}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          ))}
         </Carousel>
       </div>
     );

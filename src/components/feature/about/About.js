@@ -19,7 +19,7 @@ class About extends React.Component {
             <div className="col-sm-8">
               <h2>Hi!</h2>
               <p>
-                I'm a frontend developer with an interest in design and UX. My
+                My name is Mikael Juntti and I am a frontend developer with an interest in design and UX. My
                 current toolbox consists of JavaScript/TypeScript, Angular,
                 React.js, HTML/CSS, jQuery, Bootstrap (among others). I'm always
                 eager to learn more and to develop my skills. Occasionally I

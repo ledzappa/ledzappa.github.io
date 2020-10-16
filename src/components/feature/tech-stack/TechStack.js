@@ -77,7 +77,7 @@ class TechStack extends React.Component {
             <div className="col-12">
               <h1 className="mt-4 mt-sm-0">&lt; TOOLBOX /&gt;</h1>
               <hr />
-              <div class="text-center mb-4">
+              <div className="text-center mb-4">
                 {shuffle(words).map((word, i) => (
                   <div
                     className="d-inline-block mr-3"
