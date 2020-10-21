@@ -1,9 +1,7 @@
 import React from 'react';
 import './Menu.css';
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandPointLeft } from '@fortawesome/free-solid-svg-icons';
-import { version } from '../../../package.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHandPointLeft } from '@fortawesome/free-solid-svg-icons'
 
 class Menu extends React.Component {
   handleClick = () => {
@@ -12,17 +10,27 @@ class Menu extends React.Component {
 
   render() {
     const menuItems = [
-      { id: 'about', title: 'About' },
-      { id: 'projects', title: 'Projects' },
-      { id: 'techStack', title: 'TechStack' },
+      { id: 'about', title: 'About', active: this.props.active === 'about' },
+      {
+        id: 'projects',
+        title: 'Projects',
+        active: this.props.active === 'projects',
+      },
+      {
+        id: 'techStack',
+        title: 'TechStack',
+        active: this.props.active === 'techStack',
+      },
     ];
     return (
       <div className="menu">
         <ul>
-          {menuItems.map((item) => (
-            <li id={item.id} onClick={this.props.onMenuClick}>
+          {menuItems.map((item, i) => (
+            <li id={item.id} onClick={this.props.onMenuClick} key={i}>
               {item.title}{' '}
-              {/* <FontAwesomeIcon icon={faHandPointLeft} size="lg" /> */}
+              {item.active && (
+                <FontAwesomeIcon icon={faHandPointLeft} size="lg" />
+              )}
             </li>
           ))}
         </ul>

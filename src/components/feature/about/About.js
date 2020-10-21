@@ -14,19 +14,20 @@ class About extends React.Component {
               <img
                 src={me}
                 className="rounded-circle img-fluid mb-4 mt-4 mt-sm-0"
+                alt="Me"
               />
             </div>
             <div className="col-sm-8">
               <h2>Hi!</h2>
               <p>
-                My name is Mikael Juntti and I am a frontend developer with an interest in design and UX. My
-                current toolbox consists of JavaScript/TypeScript, Angular,
-                React.js, HTML/CSS, jQuery, Bootstrap (among others). I'm always
-                eager to learn more and to develop my skills. Occasionally I
-                also make guest appearances at "the other side", perhaps writing
-                some PHP and SQL. I strive to write easy-to-read, slick and
-                maintainable code, to challenge myself and to surpass
-                expectations.
+                My name is Mikael Juntti and I am a frontend developer with an
+                interest in design and UX. My current toolbox consists of
+                JavaScript/TypeScript, Angular, React.js, HTML/CSS, jQuery,
+                Bootstrap (among others). I'm always eager to learn more and to
+                develop my skills. Occasionally I also make guest appearances at
+                "the other side", perhaps writing some PHP and SQL. I strive to
+                write easy-to-read, slick and maintainable code, to challenge
+                myself and to surpass expectations.
               </p>
               <hr />
               <ul className="list-unstyled">

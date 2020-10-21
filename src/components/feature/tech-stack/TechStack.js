@@ -91,6 +91,7 @@ class TechStack extends React.Component {
                           : 0.4),
                       opacity: i % 2 === 1 ? 0.6 : 1,
                     }}
+                    key={i}
                   >
                     {word.text}
                   </div>

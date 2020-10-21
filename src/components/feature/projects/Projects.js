@@ -65,8 +65,8 @@ class Projects extends React.Component {
     return (
       <div className="page page-projects">
         <Carousel className="vh-100" interval={3000}>
-          {this.projectsProfessional.map((project) => (
-            <Carousel.Item>
+          {this.projectsProfessional.map((project, i) => (
+            <Carousel.Item key={i}>
               <img
                 className="d-block w-100"
                 src={project.image}
