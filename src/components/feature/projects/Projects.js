@@ -64,7 +64,10 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="page page-projects">
-        <Carousel className="vh-100" interval={3000}>
+        <div className="header">
+          <h2>Projects</h2>
+        </div>
+        <Carousel interval={3000000}>
           {this.projectsProfessional.map((project, i) => (
             <Carousel.Item key={i}>
               <img
