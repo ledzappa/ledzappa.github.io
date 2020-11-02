@@ -67,7 +67,7 @@ class Projects extends React.Component {
         <div className="header">
           <h2>Projects</h2>
         </div>
-        <Carousel interval={3000000}>
+        <Carousel interval={3000}>
           {this.projectsProfessional.map((project, i) => (
             <Carousel.Item key={i}>
               <img
