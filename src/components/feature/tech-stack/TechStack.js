@@ -48,6 +48,7 @@ class TechStack extends React.Component {
       { text: 'React Native', value: 35 },
       { text: 'PHP', value: 50 },
       { text: 'Java', value: 40 },
+      { text: 'Maven', value: 30 },
       { text: 'Node.js', value: 40 },
       { text: 'OpenShift', value: 30 },
       { text: 'Jenkins', value: 30 },
