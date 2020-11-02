@@ -7,7 +7,7 @@ const Menu = (props) => {
   const menuItems = [
     { id: 'about', title: 'About' },
     { id: 'projects', title: 'Projects' },
-    { id: 'techStack', title: 'TechStack' },
+    { id: 'techStack', title: 'Tech Stack' },
   ];
 
   return (
