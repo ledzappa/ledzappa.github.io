@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './TechStack.css';
 
-const shuffle = (a) => {
+const shuffleArray = (a) => {
   var j, x, i;
   for (i = a.length - 1; i > 0; i--) {
     j = Math.floor(Math.random() * (i + 1));
@@ -71,16 +71,16 @@ const TechStack = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h1 className="mt-4 mt-sm-0">&lt; TECH-STACK /&gt;</h1>
+            <h1 className="mt-4">&lt; TECH-STACK /&gt;</h1>
             <hr />
             <div className="text-center mb-4">
-              {shuffle(words).map((word, i) => (
+              {shuffleArray(words).map((word, i) => (
                 <div
                   className="d-inline-block mr-3"
                   style={{
                     fontSize:
                       word.value *
-                      (size.width > 1000 ? 1 : size.width > 600 ? 0.6 : 0.4),
+                      (size.width > 1320 ? 1 : size.width > 600 ? 0.6 : 0.4),
                     opacity: i % 2 === 1 ? 0.6 : 1,
                   }}
                   key={i}
