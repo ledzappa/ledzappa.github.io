@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/juntti.nu/precache-manifest.8f0ce1af9e566b5cc62505a46a42991f.js"
+  "/juntti.nu/precache-manifest.5faec3e50ea5e9c5726086ce5ad6da4e.js"
 );
 
 self.addEventListener('message', (event) => {
