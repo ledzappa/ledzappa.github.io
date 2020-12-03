@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './TechStack.css';
+import axios from 'axios';
 
 const shuffleArray = (a) => {
   var j, x, i;
@@ -12,47 +13,9 @@ const shuffleArray = (a) => {
   return a;
 };
 
-const words = [
-  { text: 'JavaScript', value: 100 },
-  { text: 'TypeScript', value: 80 },
-  { text: 'Angular', value: 70 },
-  { text: 'RxJS', value: 30 },
-  { text: 'NGRX', value: 30 },
-  { text: 'Redux', value: 30 },
-  { text: 'Karma', value: 30 },
-  { text: 'Jest', value: 50 },
-  { text: 'Jasmine', value: 30 },
-  { text: 'Protractor', value: 30 },
-  { text: 'Angular.js', value: 60 },
-  { text: 'React.js', value: 60 },
-  { text: 'React Native', value: 35 },
-  { text: 'PHP', value: 50 },
-  { text: 'Java', value: 40 },
-  { text: 'Maven', value: 30 },
-  { text: 'Node.js', value: 40 },
-  { text: 'OpenShift', value: 30 },
-  { text: 'Jenkins', value: 30 },
-  { text: 'Docker', value: 30 },
-  { text: 'Github', value: 50 },
-  { text: 'Kibana', value: 50 },
-  { text: 'VsCode', value: 30 },
-  { text: 'IntelliJ', value: 30 },
-  { text: 'Photoshop', value: 50 },
-  { text: 'Linux', value: 40 },
-  { text: 'Bash', value: 40 },
-  { text: 'UX', value: 65 },
-  { text: 'CSS', value: 70 },
-  { text: 'HTML', value: 70 },
-  { text: 'SQL', value: 60 },
-  { text: 'Chrome Devtools', value: 60 },
-  { text: 'Bootstrap', value: 70 },
-  { text: 'Scrum', value: 35 },
-  { text: 'Kanban', value: 35 },
-  { text: 'Jira', value: 35 },
-];
-
 const TechStack = () => {
   const [size, setSize] = useState({ width: 0, height: 0 });
+  const [words, setWords] = useState([]);
 
   useEffect(() => {
     const updateWindowDimensions = () => {
@@ -61,6 +24,10 @@ const TechStack = () => {
 
     updateWindowDimensions();
     window.addEventListener('resize', () => updateWindowDimensions());
+
+    axios.get(`mocks/words.json`).then((res) => {
+      setWords(shuffleArray(res.data.words));
+    });
 
     return () =>
       window.removeEventListener('resize', () => updateWindowDimensions());
@@ -74,7 +41,7 @@ const TechStack = () => {
             <h1 className="mt-4">&lt; TECH-STACK /&gt;</h1>
             <hr />
             <div className="text-center mb-4">
-              {shuffleArray(words).map((word, i) => (
+              {words.map((word, i) => (
                 <div
                   className="d-inline-block mr-3"
                   style={{

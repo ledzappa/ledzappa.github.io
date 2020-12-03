@@ -11,12 +11,6 @@ const refs = {
   techStack: React.createRef(),
 };
 
-const pages = [
-  { component: <About />, ref: refs.about },
-  { component: <Projects />, ref: refs.projects },
-  { component: <TechStack />, ref: refs.techStack },
-];
-
 const scrollTo = (id) => {
   window.scrollTo(0, refs[id].current.offsetTop);
 };
@@ -25,10 +19,10 @@ const handleMenuClick = (e) => {
   scrollTo(e.target.id);
 };
 
-function App() {
+const App = () => {
   const [activePage, setActivePage] = useState('about');
+
   useEffect(() => {
-    // Some initialization logic here
     window.addEventListener('scroll', (e) => handleScroll(e), true);
   }, []);
 
@@ -47,13 +41,19 @@ function App() {
       <div className="row">
         <div className="col-12">
           <Menu onMenuClick={(e) => handleMenuClick(e)} active={activePage} />
-          {pages.map((page, i) => (
-            <div ref={page.ref} key={i}>{page.component}</div>
-          ))}
+          <div ref={refs.about}>
+            <About />
+          </div>
+          <div ref={refs.projects}>
+            <Projects />
+          </div>
+          <div ref={refs.techStack}>
+            <TechStack />
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default App;

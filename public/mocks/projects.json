@@ -1,0 +1,116 @@
+{
+  "projects": {
+    "personal": [
+      {
+        "title": "Scng - Swedish company name generator",
+        "description": "A word generator, powered by Angular.",
+        "links": {
+          "site": "https://ledzappa.github.io/scng",
+          "repo": "https://www.github.com/ledzappa/"
+        },
+        "image": "scng.png"
+      },
+      {
+        "title": "Countries and Capitals game",
+        "description": "A game I developed in order to teach myself the countries and capitals of the world. Vanilla JS, bootstrap, animate.css.",
+        "links": {
+          "site": "https://ledzappa.github.io/countries-and-capitals-game",
+          "repo": "https://www.github.com/ledzappa/countries-and-capitals-game"
+        },
+        "image": "contriesandcapitals.png"
+      },
+      {
+        "title": "Baeck.studio",
+        "description": "A website for swedish graphical studio \"Bäck\". Powered by Angular, Bootstrap and animate.css.",
+        "links": {
+          "site": null,
+          "repo": "https://github.com/ledzappa/baeckstudio/tree/master/bsApp"
+        },
+        "image": "baeck.png"
+      },
+      {
+        "title": "Juntti.nu",
+        "description": "My personal website, powered by react, bootstrap and animate.css.",
+        "links": {
+          "site": "https://ledzappa.github.io/juntti.nu",
+          "repo": "https://www.github.com/ledzappa/juntti.nu"
+        },
+        "image": "junttinu.png"
+      },
+      {
+        "title": "Seiken X",
+        "description": "A Snes style game developed using the Game Maker engine and the GML-language. Work in progress.",
+        "links": {
+          "site": null,
+          "repo": null
+        },
+        "image": "seikenx.png"
+      },
+      {
+        "title": "Röda Dagar.nu",
+        "description": "A website that dynamically calculates and displays swedish holidays and bridge days. Powered by React and Bootstrap.",
+        "links": {
+          "site": "https://www.rodadagar.nu",
+          "repo": "https://www.github.com/ledzappa/roda-dagar"
+        },
+        "image": "rodadagar.png"
+      },
+      {
+        "title": "Spin the bottle",
+        "description": "Spins a bottle randomly. Built with vanilla JS.",
+        "links": {
+          "site": "https://ledzappa.github.io/spin-the-bottle",
+          "repo": "https://www.github.com/ledzappa/spin-the-bottle"
+        },
+        "image": "spinthebottle.png"
+      }
+    ],
+    "professional": [
+      {
+        "title": "Conzignus/NABO",
+        "description": "Web portal",
+        "links": {
+          "site": null,
+          "repo": null
+        },
+        "image": "nabo1.png"
+      },
+      {
+        "title": "Conzignus/NABO",
+        "description": "Web portal",
+        "links": {
+          "site": null,
+          "repo": null
+        },
+        "image": "nabo2.png"
+      },
+      {
+        "title": "Conzignus/NABO",
+        "description": "Admin interface",
+        "links": {
+          "site": null,
+          "repo": null
+        },
+        "image": "nabo3.png"
+      },
+      {
+        "title": "SEB - Login Client",
+        "description": "The login application of swedish bank SEB, powered by Angular. Highly configurable. Refactored the entire application from one single module into multiple feature modules to enable lazy loading. Implemented NGRX-state management, QR-functionality among others.",
+        "links": {
+          "site": "https://id.seb.se",
+          "repo": null
+        },
+        "image": "seb1.png"
+      },
+      {
+        "title": "SEB - General Signing Surface",
+        "description": "A micro service app used by the entire bank in order to sign payments, documents etc. Powered by angular. Written by me from scratch.",
+        "links": {
+          "site": null,
+          "repo": null
+        },
+        "image": "nabo1.png"
+      }
+    ]
+  }
+}
