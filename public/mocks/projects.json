@@ -67,8 +67,8 @@
     ],
     "professional": [
       {
-        "title": "Conzignus/NABO",
-        "description": "Web portal",
+        "title": "NABO - Web Portal",
+        "description": "Powered by Angular.",
         "links": {
           "site": null,
           "repo": null
@@ -76,8 +76,8 @@
         "image": "nabo1.png"
       },
       {
-        "title": "Conzignus/NABO",
-        "description": "Web portal",
+        "title": "NABO - Web Portal",
+        "description": "Powered by Angular.",
         "links": {
           "site": null,
           "repo": null
@@ -85,8 +85,8 @@
         "image": "nabo2.png"
       },
       {
-        "title": "Conzignus/NABO",
-        "description": "Admin interface",
+        "title": "NABO - Admin interface",
+        "description": "Powered by Angular.",
         "links": {
           "site": null,
           "repo": null
@@ -101,15 +101,6 @@
           "repo": null
         },
         "image": "seb1.png"
-      },
-      {
-        "title": "SEB - General Signing Surface",
-        "description": "A micro service app used by the entire bank in order to sign payments, documents etc. Powered by angular. Written by me from scratch.",
-        "links": {
-          "site": null,
-          "repo": null
-        },
-        "image": "nabo1.png"
       }
     ]
   }
