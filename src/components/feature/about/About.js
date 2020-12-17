@@ -29,7 +29,7 @@ const About = () => (
             and to surpass expectations.
           </p>
           <hr />
-          <div className="d-flex align-items-center">
+          <div className="mb-4">
             <ul className="list-unstyled d-inline-block mb-0">
               <li>
                 <a
@@ -45,7 +45,7 @@ const About = () => (
                 </a>
               </li>
               <li>
-                <a href="cv2020.pdf" target="_blank">
+                <a href="CV2020.pdf" target="_blank">
                   <button className="btn btn-outline-custom mb-2">
                     <FontAwesomeIcon className="mr-2" icon={faFileDownload} />
                     Download CV

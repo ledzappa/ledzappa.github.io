@@ -1,7 +1,7 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Projects.css';
-import axios from 'axios';
 
 const Projects = () => {
   const [projects, setProjects] = useState({
@@ -10,7 +10,6 @@ const Projects = () => {
 
   useEffect(() => {
     axios.get(`mocks/projects.json`).then((res) => {
-      console.log(res.data);
       setProjects(res.data.projects);
     });
   }, []);
