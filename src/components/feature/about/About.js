@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import me from '../../../assets/img/me.jpg';
 
 const About = () => (
@@ -28,21 +29,31 @@ const About = () => (
             and to surpass expectations.
           </p>
           <hr />
-          <ul className="list-unstyled">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/mikael-juntti-a7666534/"
-                target="_blank"
-              >
-                <FontAwesomeIcon className="mr-2" icon={faLinkedin} />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.github.com/ledzappa" target="_blank">
-                <FontAwesomeIcon className="mr-2" icon={faGithub} />
-              </a>
-            </li>
-          </ul>
+          <div className="d-flex align-items-center">
+            <ul className="list-unstyled d-inline-block mb-0">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/mikael-juntti-a7666534/"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon className="mr-2" icon={faLinkedin} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.github.com/ledzappa" target="_blank">
+                  <FontAwesomeIcon className="mr-2" icon={faGithub} />
+                </a>
+              </li>
+              <li>
+                <a href="cv2020.pdf" target="_blank">
+                  <button className="btn btn-outline-custom mb-2">
+                    <FontAwesomeIcon className="mr-2" icon={faFileDownload} />
+                    Download CV
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

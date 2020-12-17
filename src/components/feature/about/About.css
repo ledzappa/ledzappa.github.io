@@ -1,0 +1,14 @@
+.btn-outline-custom {
+  color: rgba(255, 255, 255, 0.7) !important;
+  border: solid 1px rgba(255, 255, 255, 0.7) !important;
+}
+
+.btn-outline-custom:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  border: solid 1px rgba(255, 255, 255, 1) !important;
+}
+
+.btn-outline-custom:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
