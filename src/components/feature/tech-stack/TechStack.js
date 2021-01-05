@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import './TechStack.css';
 import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import './TechStack.css';
 
 const shuffleArray = (a) => {
   var j, x, i;

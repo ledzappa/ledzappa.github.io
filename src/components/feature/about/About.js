@@ -1,9 +1,9 @@
-import React from 'react';
-import './About.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 import me from '../../../assets/img/me.jpg';
+import './About.css';
 
 const About = () => (
   <div className="page page-about">
