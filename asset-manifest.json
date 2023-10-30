@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/juntti.nu/static/css/main.cbe04305.css",
+    "main.js": "/juntti.nu/static/js/main.09e08415.js",
+    "static/media/seb1.png": "/juntti.nu/static/media/seb1.1e77049f611701d9fc2f.png",
+    "static/media/nabo1.png": "/juntti.nu/static/media/nabo1.868d3da21c3464029de6.png",
+    "static/media/backen.jpg": "/juntti.nu/static/media/backen.baba5b2faeed9bfe1553.jpg",
+    "static/media/nabo2.png": "/juntti.nu/static/media/nabo2.92ca796a4d350a7b0012.png",
+    "static/media/nabo3.png": "/juntti.nu/static/media/nabo3.a6097fee64abb9fd14a8.png",
+    "static/media/me.jpg": "/juntti.nu/static/media/me.c4f3cd18e971b0710ffd.jpg",
+    "index.html": "/juntti.nu/index.html",
+    "main.cbe04305.css.map": "/juntti.nu/static/css/main.cbe04305.css.map",
+    "main.09e08415.js.map": "/juntti.nu/static/js/main.09e08415.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbe04305.css",
+    "static/js/main.09e08415.js"
+  ]
+}
