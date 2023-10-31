@@ -19,14 +19,18 @@ const About = () => (
         <div className="col-sm-8">
           <h2>Hi!</h2>
           <p>
-            My name is Mikael Juntti and I am a frontend developer with an
-            interest in design and UX. My current toolbox consists of
-            JavaScript/TypeScript, Angular, React.js, HTML/CSS, jQuery,
-            Bootstrap (among others). I'm always eager to learn more and to
-            develop my skills. Occasionally I also make guest appearances at
-            "the other side", perhaps writing some PHP and SQL. I strive to
-            write easy-to-read, slick and maintainable code, to challenge myself
-            and to surpass expectations.
+            My name is Mikael Juntti and I am a developer with an interest in
+            design and UX. Through my company <b>Juntti Dev AB</b> I offer
+            consulting services across the stack, and also do some in-house
+            product development primarily in the form of native apps.
+          </p>
+          <p>
+            My current toolbox consists of JavaScript/TypeScript, Angular,
+            React.js, React Native, Vue, HTML/CSS, Bootstrap (among others). I'm
+            always eager to learn more and to develop my skills. Occasionally I
+            also make guest appearances at "the other side", perhaps writing
+            some PHP and SQL. I strive to write easy-to-read, slick and
+            maintainable code, to challenge myself and to surpass expectations.
           </p>
           <hr />
           <div className="mb-4">
@@ -35,12 +39,17 @@ const About = () => (
                 <a
                   href="https://www.linkedin.com/in/mikael-juntti-a7666534/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon className="mr-2" icon={faLinkedin} />
                 </a>
               </li>
               <li>
-                <a href="https://www.github.com/ledzappa" target="_blank">
+                <a
+                  href="https://www.github.com/ledzappa"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FontAwesomeIcon className="mr-2" icon={faGithub} />
                 </a>
               </li>

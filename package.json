@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "wipdep": "git add . && git commit -m \"wip\" && git push && react-scripts build && gh-pages -d build"
+    "build-and-publish": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
